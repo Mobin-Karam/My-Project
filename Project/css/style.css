@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;700&family=Noto+Sans:wght@100&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box-1 {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../img/bg.jpg');
+    background-size: cover;
+}
+
+
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../img/bg.jpg');
+    background-size: cover;
+}
+
+.banner .content {
+    max-width: 900px;
+    text-align: center;
+}
+
+
+.banner .content h2 {
+    font-size: 5em;
+    color: #fff;
+}
+
+.banner .content p {
+    font-size: 1em;
+    color: #fff;
+}
+
+
+.btn {
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    background-color: #ff0157;
+    transition-property: letter-spacing;
+    transition-duration: .5s;
+    /* cursor: pointer; */
+}
+
+.btn:hover {
+    letter-spacing: 6px;
+}

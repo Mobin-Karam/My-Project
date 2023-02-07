@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(61, 70, 80);
+}
+
+.container {
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+    border: 2px solid rgb(173, 160, 185);
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(187, 160, 229);
+    margin: 20px;
+
+}
+
+
+.container .box.box-2 {
+    visibility: visible;
+}
+
+.box img {
+    width: 100px;
+}
+
+div.lol {
+    color: white;
+    width: 500px;
+    margin: auto;
+    border: 2px solid yellow;
+}
+
+span.pop {
+    color: white;
+    border: 2px solid white;
+    width: 500px ;
+    margin: auto;
+}
+
+
+

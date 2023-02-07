@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+Arabic:wght@300;700&family=Noto+Sans:wght@100&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    /* position: relative; */
+}
+
+div.img-bg {
+    width: 100%;
+    height: 100vh;
+    opacity: .8;
+    background-image: url(./img/img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    position: absolute; 
+    z-index: -999;
+}
+
+section.container {
+
+    width: 100%;
+    height: 100vh;
+    display: grid;
+
+}
+
+header,
+.content,
+footer {
+    border: 2px solid white;
+}
+
+.content{
+    /* padding: 50px; */
+}
+
+/* Header ======================== */
+.date {
+    font-size: .90rem;
+    padding-top: 5px;
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+header {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+}
+
+header .header-right {
+    position: relative;
+    height: 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+
+}
+
+div.box {
+    background-color: #3d3c3b;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+
+    font-size: 22px;
+    outline: .1px solid #3d3c3b;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.box3 {
+    border: none;
+    background-color: none;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+    /* font-weight: 200; */
+    font-size: 25px;
+    /* outline: .1px solid3d3c3b; */
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* Header ======================== */
+
+
+
+/* Main =========================== */
+
+main {
+    position: relative;
+}
+
+/* Main =========================== */
+
+
+/* Footer =========================== */
+
+footer {
+    display: flex;
+}
+
+/* Footer =========================== */

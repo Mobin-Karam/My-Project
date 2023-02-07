@@ -1,0 +1,1848 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Caferio | Restaurant Cafe</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+
+
+
+	<link rel="stylesheet" href="./css/main.css" type="text/css">
+	<link rel="stylesheet" href="./css/style.css" type="text/css">
+	<link rel="stylesheet" href="./css/responsive.css" type="text/css">
+	<link rel="stylesheet" href="css/swiper.min.css" type="text/css">
+
+	<!-- Bootstrap ----------------------------------->
+	<link rel="stylesheet" href="dist/boostrap/css/bootstrap.css" type="text/css">
+	<link rel="stylesheet" href="dist/boostrap/css/bootstrap.min.css" type="text/css">
+	<script src="dist/boostrap/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="dist/jquery/jquery.min.js" type="text/javascript"></script>
+	<script src="./main.js" type="text/javascript"></script>
+
+	<!-- <script src="dist/boostrap/js/bootstrap.js" type="text/javascript"></script>
+	<script src="dist/boostrap/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+	<script src="dist/boostrap/js/bootstrap.min.js" type="text/javascript"></script> -->
+
+
+
+	<!-- Font-awesome -------------------------------->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+
+<body class="header-1 viewport-lg loaded">
+	<header class="header">
+		<div class="primary-header">
+			<div class="container">
+				<div class="primary-header-inner">
+					<div class="header-logo">
+						<a href="#">
+							<img class="light" src="img/logo-light.png" alt="Logo">
+							<img class="dark" src="img/logo-dark.png" alt="Logo">
+						</a>
+					</div>
+					<!-- /.header-logo  -->
+					<div class="header-menu-wrap">
+						<ul class="slider-menu">
+							<li class="dropdown_menu">
+								<a href="#">
+									Home
+									<span></span>
+								</a>
+								<ul>
+									<li>
+										<a href="#">
+											Home Default
+											<span></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Home Modern
+											<span></span>
+										</a>
+									</li>
+								</ul>
+								<span class="dropdown-plus"></span>
+							</li>
+							<li>
+								<a href="#">
+									About Us
+								</a>
+							</li>
+							<li class="dropdown_menu">
+								<a href="#">
+									Pages
+									<span></span>
+								</a>
+								<ul>
+									<li>
+										<a href="#">
+											Food Gallery
+											<span></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Reviews
+											<span></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Our Chef
+											<span></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Food Menu
+											<span></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Reservation
+											<span></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Help & Faq's
+											<span></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											404 Error
+											<span></span>
+										</a>
+									</li>
+								</ul>
+								<span class="dropdown-plus"></span>
+							</li>
+							<li class="dropdown_menu">
+								<a href="#">
+									Shop
+									<span></span>
+								</a>
+								<ul>
+									<li>
+										<a href="#">
+											Shop Details
+											<span></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Shop Grid
+											<span></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Cart Page
+											<span></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Checkout Page
+											<span></span>
+										</a>
+									</li>
+								</ul>
+								<span class="dropdown-plus"></span>
+							</li>
+							<li class="dropdown_menu">
+								<a href="#">
+									Blog
+								</a>
+								<ul>
+									<li>
+										<a href="#">
+											Grid Layout
+											<span></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Classic Layout
+											<span></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Blog Details
+											<span></span>
+										</a>
+									</li>
+								</ul>
+								<span class="dropdown-plus"></span>
+							</li>
+							<li>
+								<a href="#">Contact Us</a>
+							</li>
+						</ul>
+					</div>
+					<!-- /.header-menu-wrap  -->
+					<div class="header-right">
+						<div class="search-icon dl-search-icon">
+							<i class="fa fa-search"></i>
+						</div>
+						<a href="#" class="header-btn">
+							Reservation
+							<span></span>
+						</a>
+						<!-- Burger menu  -->
+						<div class="mobile-menu-icon">
+							<div class="burger-menu">
+								<div class="line-menu line-half first-line"></div>
+								<div class="line-menu"></div>
+								<div class="line-menu line-half first-line"></div>
+							</div>
+						</div>
+					</div>
+					<!-- /.header-right  -->
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- /.header-one  -->
+	<div id="popup-search-box">
+		<div class="box-inner-wrap d-flex align-items-center">
+			<form id="form" action="#" method="get" role="search">
+				<input id="popup-search" type="text" name="s" placeholder="Type keywords here...">
+				<button id="popup-search-button" type="submit" name="submit">
+					<i class="las la-search"></i>
+				</button>
+			</form>
+		</div>
+	</div>
+	<!-- /#popup-search-box  -->
+	<div id="main-slider" class="main-slider slick-initialized slick-slider slick-dotted">
+		<div class="slick-prev slick-arrow" style><i class="fa fa-long-arrow-left"></i></div>
+		<div class="slick-list draggable">
+			<div class="slick-track" style="opacity: 1; width: 4584px;">
+				<div class="single-slide slick-slide slick-current slick-active" data-slick-index="0"
+					aria-hidden="false"
+					style="width: 1528px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;"
+					tabindex="0" role="tabpanel" id="slick-slide00" aria-describedby="slick-slide-control00">
+					<div class="bg-img kenburns-top" style="background-image: url(./img/slider-bg-01.jpg);"></div>
+					<div class="slider-shape element"
+						style="background-image: url(&quot;./img/slider-shape-01.png&quot;); animation-delay: 0.5s;"
+						data-animation="fade-in-right" data-delay="0.5s"></div>
+					<div class="food-img element"
+						style="background-image: url(&quot;./img/food-img-01.png&quot;); animation-delay: 1s;"
+						data-animation="fade-in-right" data-delay="1s"></div>
+					<div class="food-design element"
+						style="background-image: url(&quot;./img/slider-elements.png&quot;); animation-delay: 1.3s;"
+						data-animation="zoomIn" data-delay="1.3s"></div>
+					<div class="slider-content-wrap d-flex align-items-center">
+						<div class="container">
+							<div class="slider-content">
+								<div class="slider-caption medium">
+									<div class="inner-layer">
+										<div data-animation="fade-in-top" data-delay="0.5s" class="element"
+											style="animation-delay: 0.5s;">Eat Sleep And</div>
+									</div>
+								</div>
+								<div class="slider-caption big">
+									<div class="inner-layer">
+										<div data-animation="reveal-text" data-delay="1s" class="element"
+											style="animation-delay: 1s;">Supper delicious<br> Burger in town!</div>
+									</div>
+								</div>
+								<div class="slider-caption small">
+									<div class="inner-layer">
+										<div data-animation="fade-in-bottom" data-delay="2s" class="element"
+											style="animation-delay: 2s;">Food is any substance consumed to provide
+											nutritional <br>support for an organism.</div>
+									</div>
+								</div>
+								<div class="slider-btn-group justify-content-left">
+									<div class="inner-layer">
+										<a href="reservation.html" class="slider-btn element"
+											data-animation="fade-in-bottom" data-delay="2.5s" tabindex="0"
+											style="animation-delay: 2.5s;">Book A Table</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="single-slide center slick-slide" data-slick-index="1" aria-hidden="true"
+					style="width: 1528px; position: relative; left: -1528px; top: 0px; z-index: 998; opacity: 0;"
+					tabindex="-1" role="tabpanel" id="slick-slide01" aria-describedby="slick-slide-control01">
+					<div class="bg-img kenburns-top" style="background-image: url(./img/slider-bg-02.jpg);"></div>
+					<div class="slider-shape" style="background-image: url(./img/slider-shape-01.png);"
+						data-animation="fade-in-right" data-delay="0.5s"></div>
+					<div class="slider-shape left" style="background-image: url(./img/slider-shape-02.png);"
+						data-animation="fade-in-left" data-delay="0.5s"></div>
+					<div class="food-img" style="background-image: url(./img/food-img-02.png);"
+						data-animation="fade-in-bottom" data-delay="1s"></div>
+					<div class="food-design" style="background-image: url(./img/slider-elements-center.png);"
+						data-animation="zoomIn" data-delay="1.3s"></div>
+					<div class="slider-content-wrap d-flex align-items-center text-center">
+						<div class="container">
+							<div class="slider-content">
+								<div class="slider-caption medium">
+									<div class="inner-layer">
+										<div data-animation="fade-in-top" data-delay="0.5s">Eat Sleep And</div>
+									</div>
+								</div>
+								<div class="slider-caption big">
+									<div class="inner-layer">
+										<div class="char-top words chars splitting" data-delay="1s" data-splitting=""
+											style="--word-total:2; --char-total:10;"><span class="word"
+												data-word="Tasty" style="--word-index:0;"><span class="char"
+													data-char="T" style="--char-index:0;">T</span><span class="char"
+													data-char="a" style="--char-index:1;">a</span><span class="char"
+													data-char="s" style="--char-index:2;">s</span><span class="char"
+													data-char="t" style="--char-index:3;">t</span><span class="char"
+													data-char="y" style="--char-index:4;">y</span></span><span
+												class="whitespace"> </span><span class="word" data-word="Pizza"
+												style="--word-index:1;"><span class="char" data-char="P"
+													style="--char-index:5;">P</span><span class="char" data-char="i"
+													style="--char-index:6;">i</span><span class="char" data-char="z"
+													style="--char-index:7;">z</span><span class="char" data-char="z"
+													style="--char-index:8;">z</span><span class="char" data-char="a"
+													style="--char-index:9;">a</span></span></div>
+									</div>
+								</div>
+								<div class="slider-caption small">
+									<div class="inner-layer">
+										<div data-animation="fade-in-bottom" data-delay="1.5s">Food is any substance
+											consumed to provide nutritional <br>support for an organism.</div>
+									</div>
+								</div>
+								<div class="slider-btn-group justify-content-center">
+									<div class="inner-layer">
+										<a href="reservation.html" class="slider-btn" data-animation="fade-in-bottom"
+											data-delay="2s" tabindex="-1">Book A Table</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="single-slide right slick-slide" data-slick-index="2" aria-hidden="true"
+					style="width: 1528px; position: relative; left: -3056px; top: 0px; z-index: 998; opacity: 0;"
+					tabindex="-1" role="tabpanel" id="slick-slide02" aria-describedby="slick-slide-control02">
+					<div class="bg-img kenburns-top" style="background-image: url(./img/slider-bg-03.jpg);"></div>
+					<div class="slider-shape left" style="background-image: url(./img/slider-shape-02.png);"
+						data-animation="fade-in-left" data-delay="0.5s"></div>
+					<div class="food-img" style="background-image: url(./img/food-img-03.png);"
+						data-animation="fade-in-top" data-delay="1s"></div>
+					<div class="food-design" style="background-image: url(./img/slider-elements.png);"
+						data-animation="zoomIn" data-delay="1.3s"></div>
+					<div class="slider-content-wrap d-flex align-items-center text-right">
+						<div class="container">
+							<div class="slider-content">
+								<div class="slider-caption medium">
+									<div class="inner-layer">
+										<div data-animation="fade-in-top" data-delay="0.5s">Eat Sleep And</div>
+									</div>
+								</div>
+								<div class="slider-caption big">
+									<div class="inner-layer">
+										<div class="char-right words chars splitting" data-delay="1s" data-splitting=""
+											style="--word-total:4; --char-total:18;"><span class="word"
+												data-word="Fried" style="--word-index:0;"><span class="char"
+													data-char="F" style="--char-index:0;">F</span><span class="char"
+													data-char="r" style="--char-index:1;">r</span><span class="char"
+													data-char="i" style="--char-index:2;">i</span><span class="char"
+													data-char="e" style="--char-index:3;">e</span><span class="char"
+													data-char="d" style="--char-index:4;">d</span></span><span
+												class="whitespace"> </span><span class="word" data-word="masala"
+												style="--word-index:1;"><span class="char" data-char="m"
+													style="--char-index:5;">m</span><span class="char" data-char="a"
+													style="--char-index:6;">a</span><span class="char" data-char="s"
+													style="--char-index:7;">s</span><span class="char" data-char="a"
+													style="--char-index:8;">a</span><span class="char" data-char="l"
+													style="--char-index:9;">l</span><span class="char" data-char="a"
+													style="--char-index:10;">a</span></span> <br><span class="word"
+												data-word="in" style="--word-index:2;"><span class="char" data-char="i"
+													style="--char-index:11;">i</span><span class="char" data-char="n"
+													style="--char-index:12;">n</span></span><span class="whitespace">
+											</span><span class="word" data-word="town!" style="--word-index:3;"><span
+													class="char" data-char="t" style="--char-index:13;">t</span><span
+													class="char" data-char="o" style="--char-index:14;">o</span><span
+													class="char" data-char="w" style="--char-index:15;">w</span><span
+													class="char" data-char="n" style="--char-index:16;">n</span><span
+													class="char" data-char="!" style="--char-index:17;">!</span></span>
+										</div>
+									</div>
+								</div>
+								<div class="slider-caption small">
+									<div class="inner-layer">
+										<div data-animation="fade-in-bottom" data-delay="2s">
+											Food is any substance
+											consumed to provide nutritional <br>support for an organism.
+										</div>
+									</div>
+								</div>
+								<div class="slider-btn-group justify-content-left">
+									<div class="inner-layer">
+										<a href="reservation.html" class="slider-btn" data-animation="fade-in-bottom"
+											data-delay="2.5s" tabindex="-1">
+											Book A Table
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Slide-1-->
+		<!--Slide-2-->
+		<!--Slide-3-->
+		<div class="slick-next slick-arrow" style>
+			<i class="fa fa-long-arrow-right"></i>
+		</div>
+		<ul class="slick-dots" style role="tablist">
+			<li class="slick-active" role="presentation"><button type="button" role="tab" id="slick-slide-control00"
+					aria-controls="slick-slide00" aria-label="1 of 3" tabindex="0" aria-selected="true">1</button></li>
+			<li role="presentation"><button type="button" role="tab" id="slick-slide-control01"
+					aria-controls="slick-slide01" aria-label="2 of 3" tabindex="-1">2</button></li>
+			<li role="presentation"><button type="button" role="tab" id="slick-slide-control02"
+					aria-controls="slick-slide02" aria-label="3 of 3" tabindex="-1">3</button></li>
+		</ul>
+	</div>
+	<!-- slider-section  -->
+	<section class="promo-section bg-grey padding">
+		<div class="bg-shape white"></div>
+		<div class="container">
+			<div class="nav-outside">
+				<div
+					class="food-carousel swiper-container nav-visible swiper-initialized swiper-horizontal swiper-pointer-events">
+					<div class="swiper-wrapper" id="swiper-wrapper-1fef6756afd110ff8" aria-live="off"
+						style="cursor: grab; transition-duration: 0ms; transform: translate3d(-2275px, 0px, 0px);">
+						<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1"
+							style="width: 315px; margin-right: 10px;" role="group" aria-label="2 / 5">
+							<div class="food-item">
+								<div class="food-icon">
+									<i class="fa fa-beer"></i>
+								</div>
+								<div class="food-content">
+									<h3>Soft Drinks</h3>
+									<p>Food is any substance consumed to provide nutritional support for an organism.
+									</p>
+								</div>
+								<div class="food-thumb">
+									<img src="./img/promo02.png" alt="img">
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev"
+							data-swiper-slide-index="2" style="width: 315px; margin-right: 10px;" role="group"
+							aria-label="3 / 5">
+							<div class="food-item">
+								<div class="food-icon">
+									<i class="fa fa-fried-potatoes"></i>
+								</div>
+								<div class="food-content">
+									<h3>French Fry</h3>
+									<p>Food is any substance consumed to provide nutritional support for an organism.
+									</p>
+								</div>
+								<div class="food-thumb">
+									<img src="./img/promo03.png" alt="img">
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+							data-swiper-slide-index="3" style="width: 315px; margin-right: 10px;" role="group"
+							aria-label="4 / 5">
+							<div class="food-item">
+								<div class="food-icon">
+									<i class="fa fa-burger"></i>
+								</div>
+								<div class="food-content">
+									<h3>Burger Kingo</h3>
+									<p>Food is any substance consumed to provide nutritional support for an organism.
+									</p>
+								</div>
+								<div class="food-thumb">
+									<img src="./img/promo04.png" alt="img">
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next"
+							data-swiper-slide-index="4" style="width: 315px; margin-right: 10px;" role="group"
+							aria-label="5 / 5">
+							<div class="food-item">
+								<div class="food-icon">
+									<i class="fa fa-chicken-leg"></i>
+								</div>
+								<div class="food-content">
+									<h3>Chicken Masala</h3>
+									<p>Food is any substance consumed to provide nutritional support for an organism.
+									</p>
+								</div>
+								<div class="food-thumb">
+									<img src="./img/promo05.png" alt="img">
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide" data-swiper-slide-index="0" style="width: 315px; margin-right: 10px;"
+							role="group" aria-label="1 / 5">
+							<div class="food-item">
+								<div class="food-icon">
+									<i class="fa fa-pizza-slice"></i>
+								</div>
+								<div class="food-content">
+									<h3>Maxican Pizza</h3>
+									<p>Food is any substance consumed to provide nutritional support for an organism.
+									</p>
+								</div>
+								<div class="food-thumb">
+									<img src="./img/promo01.png" alt="img">
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide" data-swiper-slide-index="1" style="width: 315px; margin-right: 10px;"
+							role="group" aria-label="2 / 5">
+							<div class="food-item">
+								<div class="food-icon">
+									<i class="fa fa-beer"></i>
+								</div>
+								<div class="food-content">
+									<h3>Soft Drinks</h3>
+									<p>Food is any substance consumed to provide nutritional support for an organism.
+									</p>
+								</div>
+								<div class="food-thumb">
+									<img src="./img/promo02.png" alt="img">
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="2"
+							style="width: 315px; margin-right: 10px;" role="group" aria-label="3 / 5">
+							<div class="food-item">
+								<div class="food-icon">
+									<i class="fa fa-fried-potatoes"></i>
+								</div>
+								<div class="food-content">
+									<h3>French Fry</h3>
+									<p>Food is any substance consumed to provide nutritional support for an organism.
+									</p>
+								</div>
+								<div class="food-thumb">
+									<img src="./img/promo03.png" alt="img">
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide swiper-slide-active" data-swiper-slide-index="3"
+							style="width: 315px; margin-right: 10px;" role="group" aria-label="4 / 5">
+							<div class="food-item">
+								<div class="food-icon">
+									<i class="fa fa-burger"></i>
+								</div>
+								<div class="food-content">
+									<h3>Burger Kingo</h3>
+									<p>Food is any substance consumed to provide nutritional support for an organism.
+									</p>
+								</div>
+								<div class="food-thumb">
+									<img src="./img/promo04.png" alt="img">
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide swiper-slide-next" data-swiper-slide-index="4"
+							style="width: 315px; margin-right: 10px;" role="group" aria-label="5 / 5">
+							<div class="food-item">
+								<div class="food-icon">
+									<i class="fa fa-chicken-leg"></i>
+								</div>
+								<div class="food-content">
+									<h3>Chicken Masala</h3>
+									<p>Food is any substance consumed to provide nutritional support for an organism.
+									</p>
+								</div>
+								<div class="food-thumb">
+									<img src="./img/promo05.png" alt="img">
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0"
+							style="width: 315px; margin-right: 10px;" role="group" aria-label="1 / 5">
+							<div class="food-item">
+								<div class="food-icon">
+									<i class="fa fa-pizza-slice"></i>
+								</div>
+								<div class="food-content">
+									<h3>Maxican Pizza</h3>
+									<p>Food is any substance consumed to provide nutritional support for an organism.
+									</p>
+								</div>
+								<div class="food-thumb">
+									<img src="./img/promo01.png" alt="img">
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1"
+							style="width: 315px; margin-right: 10px;" role="group" aria-label="2 / 5">
+							<div class="food-item">
+								<div class="food-icon">
+									<i class="fa fa-beer"></i>
+								</div>
+								<div class="food-content">
+									<h3>Soft Drinks</h3>
+									<p>Food is any substance consumed to provide nutritional support for an organism.
+									</p>
+								</div>
+								<div class="food-thumb">
+									<img src="./img/promo02.png" alt="img">
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev"
+							data-swiper-slide-index="2" style="width: 315px; margin-right: 10px;" role="group"
+							aria-label="3 / 5">
+							<div class="food-item">
+								<div class="food-icon">
+									<i class="fa fa-fried-potatoes"></i>
+								</div>
+								<div class="food-content">
+									<h3>French Fry</h3>
+									<p>Food is any substance consumed to provide nutritional support for an organism.
+									</p>
+								</div>
+								<div class="food-thumb">
+									<img src="./img/promo03.png" alt="img">
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+							data-swiper-slide-index="3" role="group" aria-label="4 / 5"
+							style="width: 315px; margin-right: 10px;">
+							<div class="food-item">
+								<div class="food-icon">
+									<i class="fa fa-burger"></i>
+								</div>
+								<div class="food-content">
+									<h3>Burger Kingo</h3>
+									<p>Food is any substance consumed to provide nutritional support for an organism.
+									</p>
+								</div>
+								<div class="food-thumb">
+									<img src="./img/promo04.png" alt="img">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="dl-slider-controls style-2">
+						<div class="dl-slider-button-prev" tabindex="0" role="button" aria-label="Previous slide"
+							aria-controls="swiper-wrapper-1fef6756afd110ff8"><i class="las la-arrow-left"></i></div>
+						<div
+							class="dl-swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+							<span class="swiper-pagination-bullet" tabindex="0"><svg class="dl-circle-loader" width="20"
+									height="20" viewBox="0 0 20 20">
+									<circle class="path" cx="10" cy="10" r="5.5" fill="none"
+										transform="rotate(-90 10 10)" stroke-opacity="1" stroke-width="2px"></circle>
+									<circle class="solid-fill" cx="10" cy="10" r="3"></circle>
+								</svg></span><span class="swiper-pagination-bullet" tabindex="0"><svg
+									class="dl-circle-loader" width="20" height="20" viewBox="0 0 20 20">
+									<circle class="path" cx="10" cy="10" r="5.5" fill="none"
+										transform="rotate(-90 10 10)" stroke-opacity="1" stroke-width="2px"></circle>
+									<circle class="solid-fill" cx="10" cy="10" r="3"></circle>
+								</svg></span><span class="swiper-pagination-bullet" tabindex="0"><svg
+									class="dl-circle-loader" width="20" height="20" viewBox="0 0 20 20">
+									<circle class="path" cx="10" cy="10" r="5.5" fill="none"
+										transform="rotate(-90 10 10)" stroke-opacity="1" stroke-width="2px"></circle>
+									<circle class="solid-fill" cx="10" cy="10" r="3"></circle>
+								</svg></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active"
+								tabindex="0"><svg class="dl-circle-loader" width="20" height="20" viewBox="0 0 20 20">
+									<circle class="path" cx="10" cy="10" r="5.5" fill="none"
+										transform="rotate(-90 10 10)" stroke-opacity="1" stroke-width="2px"></circle>
+									<circle class="solid-fill" cx="10" cy="10" r="3"></circle>
+								</svg></span><span class="swiper-pagination-bullet" tabindex="0"><svg
+									class="dl-circle-loader" width="20" height="20" viewBox="0 0 20 20">
+									<circle class="path" cx="10" cy="10" r="5.5" fill="none"
+										transform="rotate(-90 10 10)" stroke-opacity="1" stroke-width="2px"></circle>
+									<circle class="solid-fill" cx="10" cy="10" r="3"></circle>
+								</svg></span>
+						</div>
+						<div class="dl-slider-button-next" tabindex="0" role="button" aria-label="Next slide"
+							aria-controls="swiper-wrapper-1fef6756afd110ff8"><i class="fa fa-arrow-right"></i></div>
+					</div>
+					<div class="carousel-preloader">
+						<div class="dot-flashing"></div>
+					</div>
+					<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- /.promo-section  -->
+	<section class="about-section padding">
+		<div class="bg-shape grey"></div>
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-6 wow fadeInLeft" data-wow-delay="200ms"
+					style="visibility: visible; animation-delay: 200ms; animation-name: fadeInLeft;">
+					<div class="content-img-holder">
+						<img src="./img/about01.png" alt="img">
+						<div class="sale">
+							<div>
+								<h4>Get Up To</h4>
+								<h2><span>50%</span>Off Now</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 wow fadeInRight" data-wow-delay="400ms"
+					style="visibility: visible; animation-delay: 400ms; animation-name: fadeInRight;">
+					<div class="about-info">
+						<h2>Caferio, Burgers, and <br>Best Pizzas <span>in Town!</span></h2>
+						<p>The restaurants in Hangzhou also catered to many northern Chinese who had fled south from
+							Kaifeng during the Jurchen invasion of the 1120s, while it is also known that many
+							restaurants were run by families.</p>
+						<ul class="check-list">
+							<li><i class="fa fa-check"></i>Delicious &amp; Healthy Foods</li>
+							<li><i class="fa fa-check"></i>Spacific Family And Kids Zone</li>
+							<li><i class="fa fa-check"></i>Music &amp; Other Facilities</li>
+							<li><i class="fa fa-check"></i>Fastest Food Home Delivery</li>
+						</ul>
+						<a href="shop-details.html" class="default-btn">Order Now <span></span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- /.about-sectoin  -->
+	<section class="food-menu bg-grey padding">
+		<div class="container">
+			<div class="section-heading mb-30 text-center wow fadeInUp" data-wow-delay="200ms"
+				style="visibility: hidden; animation-delay: 200ms; animation-name: none;">
+				<h4>Popular Dishes</h4>
+				<h2>Our Delicious <span>Foods</span></h2>
+				<p>Food is any substance consumed to provide nutritional <br> support for an organism.</p>
+			</div>
+			<ul class="food-menu-filter">
+				<li class="active" data-filter="*">All</li>
+				<li data-filter=".pizza">Pizza</li>
+				<li data-filter=".burger">Burger</li>
+				<li data-filter=".drinks">Drinks</li>
+				<li data-filter=".sandwich">Sandwich</li>
+			</ul>
+			<div class="row product-items" style="position: relative; height: 1181.18px;">
+				<div class="col-lg-4 col-md-6 padding-15 isotop-grid pizza sandwich"
+					style="position: absolute; left: 0px; top: 0px;">
+					<div class="product-item wow fadeInUp" data-wow-delay="200ms"
+						style="visibility: hidden; animation-delay: 200ms; animation-name: none;">
+						<div class="sale">-15%</div>
+						<div class="product-thumb">
+							<img src="./img/food01.png" alt="food">
+							<div><a href="shop-details.html" class="order-btn">Order Now</a></div>
+						</div>
+						<div class="food-info">
+							<ul class="ratting">
+								<li>Chicken</li>
+								<li><i class="fa fa-star"></i></li>
+								<li><i class="fa fa-star"></i></li>
+								<li><i class="fa fa-star"></i></li>
+								<li><i class="fa fa-star"></i></li>
+								<li><i class="fa fa-star"></i></li>
+							</ul>
+							<h3>Fried Chicken Unlimited</h3>
+							<div class="price">
+								<h4>Price: <span>$49.00</span> <span class="reguler">$69.00</span></h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 padding-15 isotop-grid burger sandwich"
+					style="position: absolute; left: 439px; top: 0px;">
+					<div class="product-item wow fadeInUp" data-wow-delay="400ms"
+						style="visibility: hidden; animation-delay: 400ms; animation-name: none;">
+						<div class="sale">-10%</div>
+						<div class="product-thumb">
+							<img src="./img/food02.png" alt="food">
+							<div><a href="shop-details.html" class="order-btn">Order Now</a></div>
+						</div>
+						<div class="food-info">
+							<ul class="ratting">
+								<li>Noddles</li>
+								<li><i class="fa fa-star"></i></li>
+								<li><i class="fa fa-star"></i></li>
+								<li><i class="fa fa-star"></i></li>
+								<li><i class="fa fa-star"></i></li>
+								<li><i class="fa fa-star"></i></li>
+							</ul>
+							<h3>Burger King Whopper</h3>
+							<div class="price">
+								<h4>Price: <span>$29.00</span> <span class="reguler">$39.00</span></h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 padding-15 isotop-grid drinks burger"
+					style="position: absolute; left: 879px; top: 0px;">
+					<div class="product-item wow fadeInUp" data-wow-delay="600ms"
+						style="visibility: hidden; animation-delay: 600ms; animation-name: none;">
+						<div class="sale">-25%</div>
+						<div class="product-thumb">
+							<img src="./img/food03.png" alt="food">
+							<div><a href="shop-details.html" class="order-btn">Order Now</a></div>
+						</div>
+						<div class="food-info">
+							<ul class="ratting">
+								<li>Pizzas</li>
+								<li><i class="fa fa-star"></i></li>
+								<li><i class="fa fa-star"></i></li>
+								<li><i class="fa fa-star"></i></li>
+								<li><i class="fa fa-star"></i></li>
+								<li><i class="fa fa-star"></i></li>
+							</ul>
+							<h3>White Castle Pizzas</h3>
+							<div class="price">
+								<h4>Price: <span>$49.00</span> <span class="reguler">$69.00</span></h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 padding-15 isotop-grid sandwich drinks"
+					style="position: absolute; left: 0px; top: 590px;">
+					<div class="product-item wow fadeInUp" data-wow-delay="200ms"
+						style="visibility: hidden; animation-delay: 200ms; animation-name: none;">
+						<div class="sale">-20%</div>
+						<div class="product-thumb">
+							<img src="./img/food04.png" alt="food">
+							<div><a href="shop-details.html" class="order-btn">Order Now</a></div>
+						</div>
+						<div class="food-info">
+							<ul class="ratting">
+								<li>Burrito</li>
+								<li><i class="fa fa-star"></i></li>
+								<li><i class="fa fa-star"></i></li>
+								<li><i class="fa fa-star"></i></li>
+								<li><i class="fa fa-star"></i></li>
+								<li><i class="fa fa-star"></i></li>
+							</ul>
+							<h3>Bell Burrito Supreme</h3>
+							<div class="price">
+								<h4>Price: <span>$59.00</span> <span class="reguler">$69.00</span></h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 padding-15 isotop-grid burger drinks"
+					style="position: absolute; left: 439px; top: 590px;">
+					<div class="product-item wow fadeInUp" data-wow-delay="400ms"
+						style="visibility: hidden; animation-delay: 400ms; animation-name: none;">
+						<div class="sale">-5%</div>
+						<div class="product-thumb">
+							<img src="./img/food05.png" alt="food">
+							<div><a href="shop-details.html" class="order-btn">Order Now</a></div>
+						</div>
+						<div class="food-info">
+							<ul class="ratting">
+								<li>Nuggets</li>
+								<li><i class="fa fa-star"></i></li>
+								<li><i class="fa fa-star"></i></li>
+								<li><i class="fa fa-star"></i></li>
+								<li><i class="fa fa-star"></i></li>
+								<li><i class="fa fa-star"></i></li>
+							</ul>
+							<h3>Kung Pao Chicken BBQ</h3>
+							<div class="price">
+								<h4>Price: <span>$49.00</span> <span class="reguler">$69.00</span></h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 padding-15 isotop-grid sandwich pizza"
+					style="position: absolute; left: 879px; top: 590px;">
+					<div class="product-item wow fadeInUp" data-wow-delay="600ms"
+						style="visibility: hidden; animation-delay: 600ms; animation-name: none;">
+						<div class="sale">-15%</div>
+						<div class="product-thumb">
+							<img src="./img/food06.png" alt="food">
+							<div><a href="shop-details.html" class="order-btn">Order Now</a></div>
+						</div>
+						<div class="food-info">
+							<ul class="ratting">
+								<li>Chicken</li>
+								<li><i class="fa fa-star"></i></li>
+								<li><i class="fa fa-star"></i></li>
+								<li><i class="fa fa-star"></i></li>
+								<li><i class="fa fa-star"></i></li>
+								<li><i class="fa fa-star"></i></li>
+							</ul>
+							<h3>Wendy's Chicken</h3>
+							<div class="price">
+								<h4>Price: <span>$49.00</span> <span class="reguler">$69.00</span></h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- /.food-menu  -->
+	<section class="content-section">
+		<div class="bg-shape white"></div>
+		<div class="bg-shape grey"></div>
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-6 wow fadeInLeft" data-wow-delay="200ms"
+					style="visibility: hidden; animation-delay: 200ms; animation-name: none;">
+					<div class="content-info">
+						<h2>The Caferio Have Excellent <br>Of <span>Quality Burgers!</span></h2>
+						<p>The restaurants in Hangzhou also catered to many northern Chinese who had fled south from
+							Kaifeng during the Jurchen invasion of the 1120s, while it is also known that many
+							restaurants were run by families.</p>
+						<a href="shop-details.html" class="default-btn">Order Now <span></span></a>
+					</div>
+				</div>
+				<div class="col-md-6 wow fadeInRight" data-wow-delay="400ms"
+					style="visibility: hidden; animation-delay: 400ms; animation-name: none;">
+					<div class="content-img-holder">
+						<img src="./img/food-img-04.png" alt="img">
+						<div class="sale">
+							<div>
+								<h4>Get Up To</h4>
+								<h2><span>50%</span>Off Now</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- /.content-section  -->
+	<section class="delivery-section padding">
+		<div class="bg-shape grey"></div>
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-6 wow fadeInLeft" data-wow-delay="200ms"
+					style="visibility: hidden; animation-delay: 200ms; animation-name: none;">
+					<div class="delivery-info">
+						<h2>A Moments Of Delivered <br> On <span>Right Time</span> &amp; Place</h2>
+						<p>The restaurants in Hangzhou also catered to many northern Chinese who had fled south from
+							Kaifeng during the Jurchen invasion of the 1120s, while it is also known that many
+							restaurants were run by families.</p>
+						<div class="order-content">
+							<a href="shop-details.html" class="default-btn">Order Now <span></span></a>
+							<h3><span>Order Number</span>012-345-6789</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="delivery-boy-wrap">
+						<img class="delivery" src="./img/cloud.png" alt="img">
+						<div class="delivery-boy simple-parallax-initialized"
+							style="will-change: transform; transform: translate3d(-81px, 0px, 0px);"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- /.delivery-section  -->
+	<section class="testimonial-section bg-grey padding">
+		<div class="bg-shape white"></div>
+		<div class="container">
+			<div class="section-heading mb-30 text-center wow fadeInUp" data-wow-delay="200ms"
+				style="visibility: hidden; animation-delay: 200ms; animation-name: none;">
+				<h4>Testimonials</h4>
+				<h2>Our Customers <span>Reviews</span></h2>
+				<p>Food is any substance consumed to provide nutritional <br> support for an organism.</p>
+			</div>
+			<div class="nav-outside">
+				<div
+					class="testimonial-carousel swiper-container nav-visible swiper-initialized swiper-horizontal swiper-pointer-events">
+					<div class="swiper-wrapper" id="swiper-wrapper-9092c2bf1859101f4" aria-live="off"
+						style="cursor: grab; transition-duration: 0ms; transform: translate3d(-2166.67px, 0px, 0px);">
+						<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0"
+							style="width: 423.333px; margin-right: 10px;" role="group" aria-label="1 / 3">
+							<div class="testimonial-item">
+								<div class="testi-thumb">
+									<img src="./img/testi01.jpg" alt="img">
+									<div class="author">
+										<h3>Robert William</h3>
+										<h4>CEO Kingfisher</h4>
+									</div>
+								</div>
+								<p> "I would be lost without restaurant. I would like to personally thank you for your
+									outstanding product."</p>
+								<ul class="ratting">
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+								</ul>
+							</div>
+						</div>
+						<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev"
+							data-swiper-slide-index="1" style="width: 423.333px; margin-right: 10px;" role="group"
+							aria-label="2 / 3">
+							<div class="testimonial-item">
+								<div class="testi-thumb">
+									<img src="./img/testi02.jpg" alt="img">
+									<div class="author">
+										<h3>Thomas Josef</h3>
+										<h4>CEO Getforce</h4>
+									</div>
+								</div>
+								<p> "I would be lost without restaurant. I would like to personally thank you for your
+									outstanding product."</p>
+								<ul class="ratting">
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+								</ul>
+							</div>
+						</div>
+						<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+							data-swiper-slide-index="2" style="width: 423.333px; margin-right: 10px;" role="group"
+							aria-label="3 / 3">
+							<div class="testimonial-item">
+								<div class="testi-thumb">
+									<img src="./img/testi03.jpg" alt="img">
+									<div class="author">
+										<h3>Charles Richard</h3>
+										<h4>CEO Angela</h4>
+									</div>
+								</div>
+								<p> "I would be lost without restaurant. I would like to personally thank you for your
+									outstanding product."</p>
+								<ul class="ratting">
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+								</ul>
+							</div>
+						</div>
+						<div class="swiper-slide swiper-slide-duplicate-next" data-swiper-slide-index="0"
+							style="width: 423.333px; margin-right: 10px;" role="group" aria-label="1 / 3">
+							<div class="testimonial-item">
+								<div class="testi-thumb">
+									<img src="./img/testi01.jpg" alt="img">
+									<div class="author">
+										<h3>Robert William</h3>
+										<h4>CEO Kingfisher</h4>
+									</div>
+								</div>
+								<p> "I would be lost without restaurant. I would like to personally thank you for your
+									outstanding product."</p>
+								<ul class="ratting">
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+								</ul>
+							</div>
+						</div>
+						<div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="1"
+							style="width: 423.333px; margin-right: 10px;" role="group" aria-label="2 / 3">
+							<div class="testimonial-item">
+								<div class="testi-thumb">
+									<img src="./img/testi02.jpg" alt="img">
+									<div class="author">
+										<h3>Thomas Josef</h3>
+										<h4>CEO Getforce</h4>
+									</div>
+								</div>
+								<p> "I would be lost without restaurant. I would like to personally thank you for your
+									outstanding product."</p>
+								<ul class="ratting">
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+								</ul>
+							</div>
+						</div>
+						<div class="swiper-slide swiper-slide-active" data-swiper-slide-index="2"
+							style="width: 423.333px; margin-right: 10px;" role="group" aria-label="3 / 3">
+							<div class="testimonial-item">
+								<div class="testi-thumb">
+									<img src="./img/testi03.jpg" alt="img">
+									<div class="author">
+										<h3>Charles Richard</h3>
+										<h4>CEO Angela</h4>
+									</div>
+								</div>
+								<p> "I would be lost without restaurant. I would like to personally thank you for your
+									outstanding product."</p>
+								<ul class="ratting">
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+								</ul>
+							</div>
+						</div>
+						<div class="swiper-slide swiper-slide-duplicate swiper-slide-next" data-swiper-slide-index="0"
+							style="width: 423.333px; margin-right: 10px;" role="group" aria-label="1 / 3">
+							<div class="testimonial-item">
+								<div class="testi-thumb">
+									<img src="./img/testi01.jpg" alt="img">
+									<div class="author">
+										<h3>Robert William</h3>
+										<h4>CEO Kingfisher</h4>
+									</div>
+								</div>
+								<p> "I would be lost without restaurant. I would like to personally thank you for your
+									outstanding product."</p>
+								<ul class="ratting">
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+								</ul>
+							</div>
+						</div>
+						<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev"
+							data-swiper-slide-index="1" style="width: 423.333px; margin-right: 10px;" role="group"
+							aria-label="2 / 3">
+							<div class="testimonial-item">
+								<div class="testi-thumb">
+									<img src="./img/testi02.jpg" alt="img">
+									<div class="author">
+										<h3>Thomas Josef</h3>
+										<h4>CEO Getforce</h4>
+									</div>
+								</div>
+								<p> "I would be lost without restaurant. I would like to personally thank you for your
+									outstanding product."</p>
+								<ul class="ratting">
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+								</ul>
+							</div>
+						</div>
+						<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+							data-swiper-slide-index="2" role="group" aria-label="3 / 3"
+							style="width: 423.333px; margin-right: 10px;">
+							<div class="testimonial-item">
+								<div class="testi-thumb">
+									<img src="./img/testi03.jpg" alt="img">
+									<div class="author">
+										<h3>Charles Richard</h3>
+										<h4>CEO Angela</h4>
+									</div>
+								</div>
+								<p> "I would be lost without restaurant. I would like to personally thank you for your
+									outstanding product."</p>
+								<ul class="ratting">
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+									<li><i class="fa fa-star"></i></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="dl-slider-controls style-2">
+						<div class="dl-slider-button-prev" tabindex="0" role="button" aria-label="Previous slide"
+							aria-controls="swiper-wrapper-9092c2bf1859101f4"><i class="las la-arrow-left"></i></div>
+						<div
+							class="dl-swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+							<span class="swiper-pagination-bullet" tabindex="0"><svg class="dl-circle-loader" width="20"
+									height="20" viewBox="0 0 20 20">
+									<circle class="path" cx="10" cy="10" r="5.5" fill="none"
+										transform="rotate(-90 10 10)" stroke-opacity="1" stroke-width="2px"></circle>
+									<circle class="solid-fill" cx="10" cy="10" r="3"></circle>
+								</svg></span><span class="swiper-pagination-bullet" tabindex="0"><svg
+									class="dl-circle-loader" width="20" height="20" viewBox="0 0 20 20">
+									<circle class="path" cx="10" cy="10" r="5.5" fill="none"
+										transform="rotate(-90 10 10)" stroke-opacity="1" stroke-width="2px"></circle>
+									<circle class="solid-fill" cx="10" cy="10" r="3"></circle>
+								</svg></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active"
+								tabindex="0"><svg class="dl-circle-loader" width="20" height="20" viewBox="0 0 20 20">
+									<circle class="path" cx="10" cy="10" r="5.5" fill="none"
+										transform="rotate(-90 10 10)" stroke-opacity="1" stroke-width="2px"></circle>
+									<circle class="solid-fill" cx="10" cy="10" r="3"></circle>
+								</svg></span>
+						</div>
+						<div class="dl-slider-button-next" tabindex="0" role="button" aria-label="Next slide"
+							aria-controls="swiper-wrapper-9092c2bf1859101f4"><i class="las la-arrow-right"></i></div>
+					</div>
+					<div class="carousel-preloader">
+						<div class="dot-flashing"></div>
+					</div>
+					<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- /.testimonial-section  -->
+	<section class="banner-section padding"></section>
+	<!-- /.banner-section -->
+	<section class="blog-section bg-grey padding"></section>
+	<!-- /.blog-section -->
+	<footer class="footer-section"></footer>
+	<!-- /.footer-section  -->
+	<div id="scrollup" class="show">
+		<button id="scroll-top" class="scroll-to-top"><i class="fa fa-arrow-up"></i></button>
+	</div>
+	<!-- /#scrollup  -->
+
+
+
+
+
+
+
+	<script type="text/javascript">
+		(function () {
+			var e = window, h = document, k = "replace"; var m = function (a, c, d, b, g) { c = encodeURIComponent(c)[k](/\(/g, "%28")[k](/\)/g, "%29"); a = a + "=" + c + "; path=" + (d || "/") + "; "; g && (a += "expires=" + (new Date((new Date).getTime() + g)).toGMTString() + "; "); b && "none" != b && (a += "domain=" + b + ";"); b = h.cookie; h.cookie = a; return b != h.cookie }, p = function (a) { var c = h.body; try { c.addEventListener ? c.addEventListener("click", a, !1) : c.attachEvent && c.attachEvent("onclick", a) } catch (d) { } }; var q = function (a, c, d, b) { this.get = function () { for (var b = void 0, c = [], d = h.cookie.split(";"), l = new RegExp("^\\s*" + a + "=\\s*(.*?)\\s*$"), f = 0; f < d.length; f++) { var n = d[f].match(l); n && c.push(decodeURIComponent(n[1][k](/%28/g, "(")[k](/%29/g, ")"))) } for (d = 0; d < c.length; d++)c[d] && (b = c[d]); return b }; this.set = function (g) { return m(a, g, b, c, 1E3 * d) }; this.remove = function () { return m(a, "", b, c, -100) } }; var t = function (a, c) {
+				var d = void 0; if ("function" == typeof a.get && "function" == typeof a.set) {
+					var b = c || {}, g = b.hasOwnProperty("cookieName") ? b.cookieName : "_gali", r = b.hasOwnProperty("cookieTimeout") ? b.cookieTimeout : 30, s = b.hasOwnProperty("levels") ? b.levels : 3, b = a.get("cookieDomain"), l = a.get("cookiePath"), f = new q(g, b, r, l); d || (d = f.get()); d && a.set("&linkid", d); p(function (a) {
+						a = a || e.event; a = a.target || a.srcElement; for (var b, c = 0; a && c <= s; c++) {
+							if (b = a.getAttribute("id")) {
+								a = b; 100 < a.length ? f.remove() : a ? f.set(a) : f.remove();
+								return
+							} a = a.parentElement
+						} f.remove()
+					})
+				}
+			}; (function () { e.gaplugins = e.gaplugins || {}; e.gaplugins.LinkId = t; var a = e.GoogleAnalyticsObject || "ga"; e[a] = e[a] || function () { (e[a].q = e[a].q || []).push(arguments) }; e[a]("provide", "linkid", t) })();
+		})();
+
+	</script>
+	<script type="text/javascript" nonce="ojYEO1PRNuzNn7rmq9l9BQ==">
+		//<![CDATA[
+
+		if (typeof Cookiebot !== 'undefined' && Cookiebot.consent && Cookiebot.consent.statistics) {
+			enableGoogleAnalyticsLinkWrapper();
+		} else {
+			window.addEventListener('CookiebotOnAccept', function (e) {
+				if (Cookiebot.consent.statistics) {
+					enableGoogleAnalyticsLinkWrapper();
+				}
+			}, false);
+		}
+
+		function enableGoogleAnalyticsLinkWrapper() {
+			// GA: universal analytics link wrapper
+			(function () {
+				window._envTrkrs = [["m", "UA-11834194-7"]];
+
+				var debug = false;
+				var MAX_RETRIES = 10;
+
+				/*
+				   The script needs to wait until the Analytics script
+				   has been downloaded from Google before initializing
+				*/
+				var waitForAnalytics = function () {
+					this.count = this.count || 0;
+
+					if (window.ga && ga.getByName) {
+						e.init();
+					} else {
+						if (count < MAX_RETRIES) { setTimeout(waitForAnalytics, 250); }
+						count++;
+					}
+				};
+
+				var e = {
+					_envArray: [],
+					_envTrkrs: (window._envTrkrsCust && window._envTrkrsCust.length) ? window._envTrkrs.concat(window._envTrkrsCust) : window._envTrkrs,
+					init: function () {
+						for (var i = 0; i < _envTrkrs.length; i++) {
+							var name = _envTrkrs[i][0];
+
+							if (!ga.getByName(name)) {
+								var accountId = _envTrkrs[i][1];
+
+								var options = {
+									name: name,
+									allowLinker: true,
+									cookieDomain: "auto",
+								};
+
+								if (Market.Helpers.GaLsUtils.localStorageAvailable()) {
+									if (Market.Helpers.GaLsUtils.clientIdNotPresent()) {
+										options.clientId = Market.Helpers.GaLsUtils.retrieveClientId();
+									}
+
+									ga("create", accountId, options);
+								} else {
+									ga("create", accountId, options);
+								}
+							}
+						}
+
+						document.addEventListener('DOMContentLoaded', function () {
+							e.wrapperInit();
+						});
+
+						if (debug) { console.log('Initiated'); }
+					},
+					wrapperInit: function () {
+						if (typeof window._envIsRunning != 'undefined' || window._envIsRunning == true) {
+							return
+						}
+						window._envIsRunning = true;
+
+						if (document.addEventListener) {
+							document.addEventListener('click', function (event) {
+								var target = event.target;
+								if (target && target.tagName === 'A') {
+									e._envLinksTracker(event);
+								}
+							});
+						}
+					},
+					isInArray: function (e, t) {
+						for (var n = 0; n < t.length; n++) {
+							var r = new RegExp(t[n], 'i');
+							if (r.test(e)) {
+								return n
+							}
+						}
+						return -1
+					},
+					_envTrackevent: function (e, t, n, r) {
+						for (var i = 0; i < this._envTrkrs.length; i++) {
+							var s = this._envTrkrs[i][0].length == 0 ? '' : this._envTrkrs[i][0] + '.';
+							r.length == 0 ? ga(s + 'send', 'event', e, t, n) : ga(s + 'send', 'event', e, t, n, r)
+						}
+					},
+					_envTrackpageview: function (e, t) {
+						t = t.charAt(0) == '/' ? t : '/' + t;
+						for (var n = 0; n < this._envTrkrs.length; n++) {
+							var r = this._envTrkrs[n][0].length == 0 ? '' : this._envTrkrs[n][0] + '.';
+							ga(r + 'send', 'pageview', e + t);
+						}
+					},
+					_envLinksTracker: function (t) {
+						var r = false;
+						var i = {
+							outbound: {
+								run: true,
+								useEvent: true
+							},
+							download: {
+								run: true,
+								useEvent: true,
+								reg: ''
+							},
+							self: {
+								run: false,
+								useEvent: true
+							},
+							mail: {
+								run: true,
+								useEvent: true
+							},
+							ext: /\.(doc.?|xls.?|ppt.?|exe|zip|rar|gz|tar|tgz|dmg|csv|pdf|xpi|txt|mp3)$/i
+						};
+						var s = t.srcElement ? t.srcElement : this;
+						if (t.srcElement) {
+							r = true
+						}
+						while (s.tagName != 'A') {
+							s = s.parentNode
+						}
+						if (s.href == undefined || s.href == null) {
+							return true
+						}
+						var o = s.href;
+						if (o.length == 0) return;
+						var u = s.hostname.toLowerCase();
+						var a = s.pathname;
+						if (a.length == 0) {
+							a = '/'
+						} else if (a.substr(0, 1) != '/') {
+							a = '/' + a
+						}
+						var f = s.protocol;
+						var l = s.search;
+						var c = location.hostname;
+						c = c.replace(/^www\./i, '').toLowerCase();
+						u = u.replace(/^www\./i, '').toLowerCase();
+						if (o.match(/^#/)) {
+							if (i.self.run) {
+								i.self.useEvent ? e._envTrackevent('self', 'click - ' + c, o, '') : e._envTrackpageview('/virtual/self', '/' + o);
+								return true
+							}
+						} else if (f.match(/^mailto:/i)) {
+							if (i.mail.run) {
+								o = o.replace(/^mailto:/i, '');
+								i.mail.useEvent ? e._envTrackevent('mailto', 'click - ' + c, o, '') : e._envTrackpageview('/virtual/mailto', o);
+								return true
+							}
+						} else if ((new RegExp(i.ext)).test(a)) {
+							if (i.download.run) {
+								o = o.replace(/^https?:\/\//i, '');
+								i.download.useEvent ? e._envTrackevent('download', 'click - ' + c, o, '') : e._envTrackpageview('/virtual/download', o);
+								return true
+							}
+						} else if (u == undefined || u.length == 0 || f.match(/^javascript:/i)) {
+							return
+						} else if ((new RegExp(c + '$', 'i')).test(u) || (new RegExp(u + '$', 'i')).test(c)) {
+							if (i.download.run && i.download.reg.length != 0) {
+								if ((new RegExp(i.download.reg, 'i')).test(a + l)) {
+									o = o.replace(/^https?:\/\//i, '');
+									i.download.useEvent ? e._envTrackevent('download', 'click - ' + c, o, '') : e._envTrackpageview('/virtual/download', o);
+									return true
+								}
+							}
+						} else if (u != c) {
+							if (e.isInArray(u, e._envArray) == -1) {
+								if (i.outbound.run) {
+									i.outbound.useEvent ? e._envTrackevent('outbound', 'click - ' + c, u + a + l, '') : e._envTrackpageview('/virtual/outbound', u + a);
+									return true
+								}
+							} else if (e.isInArray(u, e._envArray) != -1) {
+								var h = s.target;
+								if (h != null && h == '_blank') {
+									if ((new RegExp(/_utma=/)).test(l)) {
+										return true
+									}
+									var p = e._envTrkrs[0][0].length == 0 ? '' : _envTrkrs[0][0] + '.';
+									return true
+								} else {
+									return false
+								}
+							}
+						}
+					}
+				};
+
+				waitForAnalytics();
+			})()
+		}
+
+		//]]>
+	</script>
+	<script type="text/javascript" nonce="ojYEO1PRNuzNn7rmq9l9BQ==">
+		//<![CDATA[
+		// Set Datadog custom attributes
+		(function () {
+			if (typeof window.datadog_attributes != 'object')
+				window.datadog_attributes = {}
+			window.datadog_attributes['pageType'] = 'other'
+
+			// Log experiment enrolment
+			var experiment_data_string = "" + "!"
+			window.datadog_attributes['experiments'] = experiment_data_string
+		})()
+
+		//]]>
+	</script>
+	<script nonce="ojYEO1PRNuzNn7rmq9l9BQ==">
+		//<![CDATA[
+		if (typeof Cookiebot !== 'undefined' && Cookiebot.consent && Cookiebot.consent.marketing) {
+			enableGoogleTagManager();
+		} else {
+			window.addEventListener('CookiebotOnAccept', function (e) {
+				if (Cookiebot.consent.marketing) {
+					enableGoogleTagManager();
+				}
+			}, false);
+		}
+
+		function enableGoogleTagManager() {
+			var gtmId = 'GTM-585RXMV';
+			// Google Tag Manager Tracking Code
+			(function (w, d, s, l, i) {
+				w[l] = w[l] || []; w[l].push({
+					'gtm.start':
+						new Date().getTime(), event: 'gtm.js'
+				});
+				var f = d.getElementsByTagName(s)[0],
+					j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+				j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+				f.parentNode.insertBefore(j, f);
+			})(window, document, 'script', 'dataLayer', gtmId);
+
+
+			window.addEventListener('load', function () {
+				window.dataLayer.push({
+					event: 'pinterestReady'
+				});
+			});
+		}
+
+		//]]>
+	</script>
+	<script type="text/javascript" nonce="ojYEO1PRNuzNn7rmq9l9BQ==">
+		//<![CDATA[
+		var ACCOUNTS = ["m"];
+		window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments) }; ga.l = +new Date;
+
+		var consentCookie = getCookie('CookieConsent');
+
+		if (consentCookie) {
+			var hasConsent = Market.Helpers.CookieConsent.given('statistics');
+
+			if (hasConsent) {
+				setupGoogleAnalytics();
+				loadGoogleAnalytics();
+				loadClickTracker();
+				loadLinkingForAllAccounts();
+			}
+		} else {
+			setupGoogleAnalytics();
+			loadGoogleAnalytics();
+			loadClickTracker();
+			loadLinkingForAllAccounts();
+		}
+
+		window.addEventListener('CookiebotOnAccept', handleCookiebotAcceptDeclineEvent, false);
+		window.addEventListener('CookiebotOnDecline', handleCookiebotAcceptDeclineEvent, false);
+		removeOldExperimentCookies();
+		trimGacUaCookies();
+
+		function removeOldExperimentCookies() {
+			let cookies = document.cookie.split('; ');
+			for (let i in cookies) {
+				let [cookieName, cookieVal] = cookies[i].split('=', 2);
+				if (cookieName.startsWith('market_experiment_')) {
+					$.removeCookie(cookieName, { path: '/', domain: '.' + window.location.host });
+				}
+			}
+		}
+
+		function trimGacUaCookies() {
+			// Trim the list of gac cookies and only leave the most recent ones. This
+			// prevents rejecting the request later on when the cookie size grows larger
+			// than nginx buffers.
+			let maxCookies = 15;
+			var gacCookies = [];
+
+			let cookies = document.cookie.split('; ');
+			for (let i in cookies) {
+				let [cookieName, cookieVal] = cookies[i].split('=', 2);
+				if (cookieName.startsWith('_gac_UA')) {
+					gacCookies.push([cookieName, cookieVal]);
+				}
+			}
+
+			if (gacCookies.length <= maxCookies)
+				return;
+
+			gacCookies.sort((a, b) => { return (a[1] > b[1] ? -1 : 1); });
+
+			for (let i in gacCookies) {
+				if (i < maxCookies) continue;
+				$.removeCookie(gacCookies[i][0], { path: '/', domain: '.' + window.location.host });
+			}
+		}
+
+		function handleCookiebotAcceptDeclineEvent() {
+			if (Cookiebot.consent.statistics) {
+				if (!(window.ga && ga.create)) {
+					setupGoogleAnalytics();
+					loadGoogleAnalytics();
+					loadClickTracker();
+					loadLinkingForAllAccounts();
+				}
+			} else {
+				unloadGoogleAnalytics()
+			}
+
+			if (!consentToExperimentsEnrollmentGiven()) {
+				unenrollFromExperiments();
+			}
+		}
+
+		function getCookie(name) {
+			var name = name + "=";
+			var decodedCookie = decodeURIComponent(document.cookie);
+			var cookieContent = decodedCookie.split(';');
+
+			for (var i = 0; i < cookieContent.length; i++) {
+				var c = cookieContent[i];
+
+				while (c.charAt(0) == ' ') {
+					c = c.substring(1);
+				}
+
+				if (c.indexOf(name) == 0) {
+					return c.substring(name.length, c.length);
+				}
+			}
+
+			return false;
+		}
+
+		function delete_cookie_by_name(name) {
+			document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+		}
+
+		function unloadGoogleAnalytics() {
+			var payload = { "name": "m", "allowLinker": true };
+			var accountId = "UA-11834194-7";
+
+			// Set the GA User Opt-out flag
+			window['ga-disable-' + accountId] = true;
+
+			// Do not explicitly make any further calls to ga()
+			ga(payload.name + ".remove");
+
+			// Delete any existing GA cookies (_ga, _gat & _gaid) and GA Client ID from localStorage
+			delete_cookie_by_name('_ga');
+			delete_cookie_by_name('_gat');
+			delete_cookie_by_name('_gid');
+
+			// Delete LocalStorage Entries
+			if (Market.Helpers.GaLsUtils.localStorageAvailable()) {
+				var clientId = Market.Helpers.GaLsUtils.getClientId();
+
+				if (!clientId) {
+					return;
+				}
+
+				Market.Helpers.GaLsUtils.removeClientId();
+			}
+
+			// Do not transmit the Client ID to other sites upon navigation (i.e. autoLink)
+		}
+
+		function domLoaded() {
+			return new Promise(resolve => {
+				if (
+					document.readyState === 'interactive' ||
+					document.readyState === 'complete'
+				) {
+					resolve()
+				} else {
+					document.addEventListener(
+						'DOMContentLoaded',
+						() => {
+							resolve()
+						},
+						{
+							capture: true,
+							once: true,
+							passive: true
+						}
+					)
+				}
+			})
+		}
+
+		function consentToExperimentsEnrollmentGiven() {
+			return Market.Helpers.CookieConsent.given('preferences') && Market.Helpers.CookieConsent.given('statistics');
+		}
+
+		function unenrollFromExperiments() {
+			var experimentCookieNames = [
+				'market_experiments',
+				'mk_ex',
+				'meqc',
+				'meqc2',
+				'meqc3'
+			]
+
+			var deletedCookies = [];
+
+			_.each(experimentCookieNames, function (cookieName) {
+				if ($.cookie(cookieName)) {
+					$.removeCookie(cookieName, { path: '/', domain: '.' + window.location.host });
+					deletedCookies.push(cookieName);
+				}
+			});
+			for (var i = 0; i < ACCOUNTS.length; i++) {
+				var t = ACCOUNTS[i];
+				if (deletedCookies.length > 0) {
+					ga(t + '.set', "exp", null);
+					ga(t + '.set', "dimension21", null);
+					ga(t + '.set', "dimension22", null);
+				}
+			}
+		}
+
+		function setExperimentEnrollments(experimentEnrolmentsDataString) {
+			for (var i = 0; i < ACCOUNTS.length; i++) {
+				var t = ACCOUNTS[i];
+				var cookieValue = $.cookie('mk_ex');
+				if (cookieValue && cookieValue.replace(/\*/g, '!') === experimentEnrolmentsDataString) {
+					ga(t + '.set', "exp", experimentEnrolmentsDataString);
+					ga(t + '.set', "dimension21", experimentEnrolmentsDataString);
+					ga(t + '.set', "dimension22", experimentEnrolmentsDataString);
+				} else {
+					ga(t + '.set', "exp", null);
+					ga(t + '.set', "dimension21", null);
+					ga(t + '.set', "dimension22", null);
+				}
+			}
+		}
+
+		function loadLinkingForAllAccounts() {
+			domLoaded().then(() => {
+				window._envGaTrackerNames = ACCOUNTS;
+
+				for (var i = 0; i < ACCOUNTS.length; i++) {
+					var t = ACCOUNTS[i];
+
+					ga(t + '.require', 'linker');
+
+					ga(t + '.require', 'linkid', 'linkid.js');
+				};
+
+				document.body.addEventListener('click', function (event) {
+					decorateLink(event);
+				});
+				document.body.addEventListener('contextmenu', function (event) {
+					// Aside from a normal click, we need to handle the variety of ways users
+					// can open a link in a new tab
+					// Right click to open context menu
+					decorateLink(event);
+				});
+				document.body.addEventListener('mousedown', function (event) {
+					// Aside from a normal click, we need to handle the variety of ways users
+					// can open a link in a new tab
+					// Middle mouse button click
+					if (event.button === 1) {
+						decorateLink(event);
+					}
+				});
+			});
+		}
+
+		function decorateLink(event) {
+
+			window._envGaTrackerNames = ACCOUNTS;
+
+			var currentTarget = jQuery(event.target);
+			var link = currentTarget.closest('a')[0];
+			var ourDomains = ["activeden.net", "audiojungle.net", "themeforest.net", "videohive.net", "graphicriver.net", "3docean.net", "codecanyon.net", "photodune.net", "market.styleguide.envato.com", "elements.envato.com", "build.envatohostedservices.com", "author.envato.com", "tutsplus.com", "sites.envato.com", "account.envato.com", "forums.envato.com"];
+			var filteredDomains = ourDomains.filter(function (domain) {
+				return domain !== document.location.hostname;
+			});
+
+			for (var i = 0; i < ACCOUNTS.length; i++) {
+				var t = ACCOUNTS[i];
+
+				if (link && link.href) {
+					if (filteredDomains.includes(link.hostname) || currentSiteLinkOpensInNewWindow(link)) {
+						ga(t + '.linker:decorate', link)
+					}
+				}
+			}
+		}
+
+		function currentSiteLinkOpensInNewWindow(link) {
+			return document.location.hostname === link.hostname && link.target === '_blank';
+		}
+
+		function setupGoogleAnalytics() {
+			(function () {
+				var accountId = "UA-11834194-7";
+				window['ga-disable-' + accountId] = false;
+
+				var options = { "name": "m", "allowLinker": true };
+
+				if (Market.Helpers.GaLsUtils.localStorageAvailable()) {
+					if (Market.Helpers.GaLsUtils.clientIdNotPresent()) {
+						options.clientId = Market.Helpers.GaLsUtils.retrieveClientId();
+					}
+
+					ga("create", accountId, options);
+					ga(function () {
+						var tracker = ga.getByName(options.name);
+						Market.Helpers.GaLsUtils.storeClientId(tracker.get('clientId'));
+						for (var i = 0; i < ACCOUNTS.length; i++) {
+							var t = ACCOUNTS[i];
+							ga(t + '.set', 'dimension18', Market.Helpers.GaLsUtils.retrieveClientId())
+						}
+					})
+				} else {
+					ga("create", accountId, options);
+				}
+
+				window._envGaTrackerNames = ACCOUNTS;
+
+				for (var i = 0; i < ACCOUNTS.length; i++) {
+					var t = ACCOUNTS[i];
+
+					ga(t + '.require', "GTM-5VPWWP");
+
+					ga(t + '.require', 'ec');
+
+					ga(t + '.require', 'displayfeatures');
+
+					ga(t + '.set', 'dimension20', 'other')
+
+					var itemPageIdMatch = window.location.pathname.match(/^\/item\/[a-z-]+\/(?:reviews\/)?(\d+)(?:\/comments|\/support)?$/);
+					if (itemPageIdMatch) {
+						// Fetch item ID from path
+						var itemId = itemPageIdMatch[1];
+						ga(t + '.set', 'dimension23', itemId);
+					}
+
+
+
+					if (!getCookie('CookieConsent') || consentToExperimentsEnrollmentGiven()) {
+						var experimentEnrolmentsDataString = ""
+						setExperimentEnrollments(experimentEnrolmentsDataString);
+					}
+
+					if ('') {
+						ga(t + '.send', {
+							hitType: 'pageview',
+							page: ''
+						});
+					} else if ('') {
+						// append the analytics_suffix to the page path so the flash alert/error type can be tracked
+						var analyticsSuffix = $.trim('').replace(/([A-Z])/g, '$1').replace(/[-_\s]+/g, '-').toLowerCase();
+						var uri = URI(window.location.pathname + window.location.search);
+						uri.path(uri.path() + '/' + analyticsSuffix);
+						var tracking_path = uri.path() + uri.search();
+						ga(t + '.send', {
+							hitType: 'pageview',
+							page: tracking_path,
+						});
+					} else {
+						ga(t + '.send', 'pageview');
+					}
+				}
+
+				loadLinkingForAllAccounts()
+			}());
+		}
+
+		function loadGoogleAnalytics() {
+			(function () {
+
+				var s = document.createElement('script');
+				s.type = 'text/javascript';
+				s.async = true;
+				s.src = 'https://www.google-analytics.com/analytics.js';
+				var x = document.getElementsByTagName('script')[0];
+				x.parentNode.insertBefore(s, x);
+			}());
+		}
+
+		function loadClickTracker() {
+			$('body').click(function (e) {
+				sendStandardEvent(e.target, { eventType: 'click' });
+			});
+		}
+
+
+
+		//]]>
+	</script>
+
+
+</body>
+
+</html>
