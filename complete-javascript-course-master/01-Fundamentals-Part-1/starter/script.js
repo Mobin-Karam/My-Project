@@ -110,18 +110,51 @@
 //~---> Start of the coding ::::
 
 
-const age = 21;
-const toEndOfLife = age >= 30;
+// const age = 21;
+// const toEndOfLife = age >= 30;
 
-if (toEndOfLife) { //if () that mean if in the parantez is true every things in the brakets its Run .
-  console.log('Hello my name is MobinKaram.')
-}
-
-
-
-
+// if (toEndOfLife) { //if () that mean if in the parantez is true every things in the brakets its Run .
+//   console.log('The Program Is RUNNIG ✅')
+// } else {
+//   console.log('The Program NOT RUN ⛔')
+// }
 
 
+// const birthYear = 2002;
+// let century;
+// if (birthYear <= 2020) {
+//    century = 20;
+// } else {
+//    century = 21;
+// }
+// console.log(century)
+
+
+
+
+
+//^--->  Lecture : JS  Type Conversion and Coercion
+//^ ------------------------
+
+//&-NOTE-1  >
+
+/*
+*
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+*/
+
+//~---> Start of the coding ::::
+
+const birthYear = "2002";
+const num = 210;
+console.log(birthYear, (Number(birthYear) + 10), String(num));
+console.log('10' - '3' - '5' - 1 + '5');
 
 
 
@@ -129,32 +162,30 @@ if (toEndOfLife) { //if () that mean if in the parantez is true every things in 
 
 //^----> Challeng number One -----------
 
+//* ----> Data 1 :
 
-
-
-
- //* ----> Data 1 :
-//---- mark Height and Weight -----
 // const markHeight = 1.69;
 // const markMass = 78;
-//---- john Height and Weight -----
+
 // const johnHeight = 1.95;
 // const johnMass = 92;
 //! ----> Data 2 :
-//---- mark Height and Weight -----
+
 // const markHeight = 1.88;
 // const markMass = 95;
-//---- john Height and Weight -----
+
 // const johnHeight = 1.76;
 // const johnMass = 85;
 
-
-
 // const markBMI = markMass / (markHeight ** 2);
 // const johnBMI = johnMass / (johnHeight ** 2);
-
 //?------ make Boolien ------
 // const markHigherBMI = (johnBMI < markBMI);
-
-
 // console.log(johnBMI, markBMI, markHigherBMI);
+
+//^----> Challeng number Two -----------
+// const higher = markBMI > johnBMI;
+// if (higher) {
+//   console.log(`Mark BMI ${markBMI} is  higher than John BMI ${johnBMI}.`)
+// } else {
+//   console.log(`John BMI ${johnBMI} is higher than Mark BMI ${markBMI}.`)

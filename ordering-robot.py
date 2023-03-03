@@ -14,6 +14,7 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()),
 driver.get("https://food.razi.ac.ir/")
 driver.maximize_window()
 
+
 uname = driver.find_element("id", "username")
 uname.send_keys("4019503020")
 upass = driver.find_element("id", "password")
